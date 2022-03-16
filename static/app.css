@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+Html { height: 100%}
+Body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+   }
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.normal-button{
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255);
+    color:rgb(117, 117, 117);
+    border-radius: 5px;
+    border: solid 1px rgb(117, 117, 117);
+}
+
+button:hover{
+    cursor: pointer;
+    /* filter: brightness(95%); */
+    transition: 0.5s;
+}
+
+.book-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    align-items: center;
+    
+}
+form{
+    padding: 0.5em;
+}
+input{
+    padding: 0.2em;
+    border-radius: 5px;
+    border: 1px solid rgb(117, 117, 117);
+}
+h1{
+    padding:1em;
+    color:rgb(65, 60, 60);
+}
+h3{
+    font-size: 1em;
+    color:rgb(117, 117, 117);
+}
+
+.pages, .book-title{
+    width: 150px;
+    color:rgb(117, 117, 117);
+}
+
+.add-book{
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255);
+    color:rgb(86, 125, 233);
+    border-radius: 5px;
+    border: solid 1px rgb(86, 125, 233);
+    margin-bottom: 10px;
+}
+
+.add-book:hover{
+    background-color: rgb(222, 231, 255);   
+}
+
+.delete{
+    color: red;
+    border-color: red;
+}
+.delete:hover{
+    background-color: rgb(255, 225, 225);
+}
+
+.update{
+    color:rgb(21, 192, 21);
+    border-color: rgb(21, 192, 21);
+}
+
+.update:hover{
+    background-color: rgb(232, 255, 232);
+}
